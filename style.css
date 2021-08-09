@@ -1,0 +1,101 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : sans-serif;
+    color : white;
+}
+
+#container{
+    display : flex;
+    width : 100vw;
+    height : 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form input{
+    color : black;
+}
+
+#inputTF{
+    width : 30vw;
+    height : 30vh;
+    background-color:steelblue;
+    box-shadow: 3px 3px 10px 3px gainsboro;
+    padding : 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+#inputTF h1{
+    margin : 20px 5px;
+}
+
+#inputTF label{
+    margin : 20px 5px;
+}
+
+#inputTF input{
+    margin : 20px 5px;
+    width : 25vw;
+    height : 30px;
+}
+
+#output{
+    width : 30vw;
+    max-width: 400px;
+    height : 60vh;
+    background-color:steelblue;
+    box-shadow: 3px 3px 10px 3px gainsboro;
+    padding : 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#image{
+    width: inherit;
+    height : 50%;
+    background-image : url('img/night.svg');
+    background-size: cover;
+}
+
+#logo{
+    width: inherit;
+    height : 15%;
+    background-image : url('img/night.svg');
+    display : flex;
+    flex-direction: column-reverse;
+    margin : -50px;
+}
+
+#logo{
+    display: inline-block;
+    text-align: center;
+}
+
+#logo img{
+    width : 100px;
+    background-color :ghostwhite;
+    border-radius: 50%;
+}
+
+#city-name{
+    margin-top : 10px;
+    margin-bottom: 10px;
+    font-weight : bold;
+}
+
+#status{
+   margin-bottom: 5px;
+}
+
+#temp{
+   font-size : 30px;
+}
+
+.display{
+    display : none;
+}
